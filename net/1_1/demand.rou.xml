@@ -1,0 +1,9 @@
+<routes>
+            <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70" guiShape="passenger"/>
+            <route id="up_route" edges="S2TL TL2N"/>
+            <route id="left_route" edges="E2TL TL2W"/>
+ <!-- <flow id= "up_flow_0" type="car" begin="0" end="10" number="20" route="up_route"  departLane="best" departSpeed="max"/> -->
+ <flow id="up_flow" type="car" begin = "0" route="up_route" probability="0.7" departLane="best" departSpeed="max"/>
+ <flow id="left_flow" type="car" begin = "0" route="left_route" probability="0.3" departLane="best" departSpeed="max"/>
+ 
+</routes>

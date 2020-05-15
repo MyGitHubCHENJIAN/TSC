@@ -1,0 +1,1 @@
+/home/json/sumo/bin/sumo-gui -c net/1_1/1_1.sumocfg
